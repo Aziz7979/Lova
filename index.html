@@ -372,30 +372,37 @@
         <h2>Contact</h2>
         <p>Please use this form to ask a question about your query and book an appointment.</p>
 
-        <form class="row g-3" action="https://formsubmit.co/aziz4in@gmail.com" method="POST">
+        <form class="row g-3" action="https://formsubmit.co/88e6e73e531336d7581eda873df9c4a8" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <input type="hidde" name="_next" value="seccess.html">
+            
             <div class="col-md-6">
                 <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="Your Fist Name" required>
+                <input type="text" class="form-control" name="name" id="firstName" placeholder="Your Fist Name" required>
             </div>
             <div class="col-md-6">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Your Last Name" required>
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lastName" placeholder="Your Last Name" required>
             </div>
             <div class="col-md-8">
                 <label for="emailInfo" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailInfo" placeholder="Your email address" required>
+                <input type="email" class="form-control" name="email" id="emailInfo" placeholder="Your email address" required>
             </div>
             <div class="col-md-4">
                 <label for="contactNumber" class="form-label">Contact Number</label>
-                <input type="text" class="form-control" id="contactNumber" placeholder="Your mobile or telephone" required>
+                <input type="text" class="form-control" name="phone" id="contactNumber" placeholder="Your mobile or telephone" required>
             </div>
             <div class="col-md-8">
                 <label for="subject" class="form-label">Subject</label>
-                <input type="text" class="form-control" id="subject" placeholder="Reason for your message" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Reason for your message" required>
             </div>
             <div class="col-md-12">
                 <label for="comments" class="form-label">Message</label>
-                <textarea class="form-control" id="comments" rows="10" required></textarea>
+                <textarea class="form-control" name="comments" id="comments" rows="10" required></textarea>
             </div>
             <div class="col-md-12 d-grid justify-content-md-end">
                 <button type="submit" class="btn btn-danger">Submit</button>
