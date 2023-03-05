@@ -1,69 +1,22 @@
-.contact {
-    width: auto;
-    height: auto;
-    padding: 75px 0 50px 0;
-    text-align: center;
-    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
-}
-.contact p {
+
+
+.col-md-12 {
     margin-bottom: 50px;
 
 }
-.contact h2, .contact p {
-    color: white;
+.col-lg-4 .md6 .fst-italic {
+    margin-bottom: 50px;
 }
-.contact_form {
-        max-width: 500px;
-        display: flex;
-        text-align: left;
-        /* max-width: 1100px; */
-        margin: 0 auto;
-        color: white;
+.our-team {
+    height: 300px;    
+    margin-top: 50px;  
 }
-.contact_form label {
-        display: block;
-        margin-bottom: 9px;
-
+.our-team a {
+    text-decoration: none;
+          
 }
-.message {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.message textarea {
-    border-radius: 5px;
-    border: 0px;
-
-}
-.contact-details {
-        flex: 1;
-        margin-right: 10px;
-}
-.contact-details input {
-        width: 100%;
-        border-radius: 5px;
-        border: 0px;
-        padding: 15px 20px;
-        margin-bottom: 20px ;
-}
-.message button {
-    color: #1d3d5f;
-    border: 0;
-    border-radius: 5px;
-    background-color: lightblue;
-    width: 140px;
-    height: 40px;
-    margin-top: 40px;
-    margin-left: auto;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.message button:hover {
-    background-color: black;
-    color: white;
-    transition: 0.2s;
+.mt-5 {
+    border: 5px solid darkred
 }
 .accredition {
     background-color:;
@@ -71,7 +24,7 @@
     height: auto;
     float: left;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     
     border-bottom: 5px solid darkred ;        
 }
@@ -129,10 +82,6 @@ span {
     margin-top: 10px;
 }
 
-.container {
-    max-width: none;
-    margin: auto;
-}
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +94,7 @@ ul {
     padding: 70px 0;
     margin-top: 10px;
 }
+
 .footer-col .left-col {
     height: 200px;
     background-color: ;
@@ -153,19 +103,11 @@ ul {
     margin-top: 15px;
     background-color: ;
 }
-.footer-col .left-col p::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 50px;
-    background-color: #ffd700;
-    height: 2px;
-    box-sizing: border-box;
-    width: 170px;
-}
+
+
 .footer-col {
-    width: 25%;
-    padding: 0 15px;
+    width: 100%;
+    padding: 0 0px;
 }
 .footer-col p {
     font-size: 14px;
@@ -214,12 +156,12 @@ ul {
 }
 .footer-col .social-links a {
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     background-color: rgba(255,255,255,0.2);
-    margin: 0 10px 10px 0;
+    margin: 0 5px 5px 0;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     border-radius: 50%;
     color: #ffffff;
     transition: all 0.5s ease;
@@ -230,7 +172,7 @@ ul {
 }
 
 /*Responsive*/
-@media(max-width: 767px) {
+/* @media(max-width: 767px) {
     .footer-col {
         width: 50%;
         margin-bottom: 30px;
@@ -241,7 +183,7 @@ ul {
     .footer-col {
         width: 100%;    
     }
-}
+} */
 
 
 /*Logo*/
