@@ -1,10 +1,27 @@
 
 
+.navbar {
+    font-variant: small-caps;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-variant: small-caps;
+}
+.out-box a {
+    text-decoration: none;
+}
+
+#middle-page1 {
+    text-align: center;
+}
+.content-box1 a {
+    text-decoration: none;
+}
 .col-md-12 {
     margin-bottom: 50px;
 
 }
-.col-lg-4 .md6 .fst-italic {
+.col-lg-4 .md-6 .fst-italic {
     margin-bottom: 50px;
 }
 .our-team {
